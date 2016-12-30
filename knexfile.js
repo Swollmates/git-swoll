@@ -1,24 +1,15 @@
 // Update with your config settings.
+require('dotenv').config();
 
 module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: './dev.sqlite3'
-    }
+    connection: process.env.DEV_URL
   },
-
 
   production: {
     client: 'pg',
-    connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
-    },
-
-    }
-  
-
+    connection: process.env.PRODUCTION_URL + '?ssl=true'
+  }
 };
