@@ -1,0 +1,20 @@
+{
+  "name": "git-swoll",
+  "version": "1.0.0",
+  "description": "*An app to track your progress in the never-ending quest to GIT SWOLL SON!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swollmates/git-swoll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swollmates/git-swoll/issues"
+  },
+  "homepage": "https://github.com/Swollmates/git-swoll#readme"
+}
